@@ -3,21 +3,11 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
+   <div>
+    <h1><i>this is CICD course</i></h1>
+    <p>CI/CD (Continuous Integration and Continuous Delivery/Deployment) is crucial for modern software development because it enables faster, more reliable, and more efficient software releases. By automating the build, test, and deployment processes, CI/CD minimizes manual errors, accelerates development cycles, and allows for more frequent updates and feature releases. 
+      This leads to quicker time to market, improved code quality, and enhanced collaboration among development teams. </p>
+      
     </div>
   );
 }
